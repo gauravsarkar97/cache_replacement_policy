@@ -13,4 +13,4 @@ This project has been done for single core systems. The replacement policies use
 
 For the first set of simulations, no L1D and L2C pre-fetchers have been used. The trace used for the simulation is bzip2_183B and number of instructions for the warmup run is 1 million and for the detailed simulation is 10 million.
 
-The output files of the above four replacement algorithms have been included.
+The output files of the above four replacement algorithms have been included. They give the result of the simulations at hardware level. The statistics for the 10 million instructions has been provided which show the number of hits and misses in the various levels of cache and in DRAM.

@@ -16,3 +16,5 @@ For the first set of simulations, no L1D and L2C pre-fetchers have been used.The
 For the second set of simulations, the branch predictor used is global History Counter or commonly called as gshare. Rest of the variables remain the same.
 
 The output files of the above four replacement algorithms have been included. They give the result of the simulations at hardware level. The statistics for the 10 million instructions has been provided which show the number of hits and misses in the various levels of cache and in DRAM.
+
+The findings, results and observations of this project is included in the PDF file named proj_findings.pdf

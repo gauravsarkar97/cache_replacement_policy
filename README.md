@@ -1,6 +1,6 @@
 # cache_replacement_policy
 The title of this project is IMPLEMENTATION & EVALUATION OF CACHE REPLACEMENT POLICIES using ChampSim simulator.
-ChampSim simulator is a is an extended version of the simulator used in the 2 nd Data Prefetching Championship and recently used in the 2nd
+ChampSim simulator is a is an extended version of the simulator used in the 2nd Data Prefetching Championship and recently used in the 2nd
 Cache Replacement Championship. It simulates a simple multi-core out-of-order. ChampSim simulator can be cloned from the github repository :
 https://github.com/ChampSim/ChampSim
 

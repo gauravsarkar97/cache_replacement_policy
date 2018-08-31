@@ -11,6 +11,8 @@ This project has been done for single core systems. The replacement policies use
 3. DRRIP(Dynamic Re- reference Interval Prediction) 
 4. SRRIP(Static Re- reference Interval Prediction)
 
-For the first set of simulations, no L1D and L2C pre-fetchers have been used. The trace used for the simulation is bzip2_183B and number of instructions for the warmup run is 1 million and for the detailed simulation is 10 million.
+For the first set of simulations, no L1D and L2C pre-fetchers have been used.The branch predictor used is bimodal. The trace used for the simulation is bzip2_183B and number of instructions for the warmup run is 1 million and for the detailed simulation is 10 million.
+
+For the second set of simulations, the branch predictor used is gshare. Rest of the variables remain the same.
 
 The output files of the above four replacement algorithms have been included. They give the result of the simulations at hardware level. The statistics for the 10 million instructions has been provided which show the number of hits and misses in the various levels of cache and in DRAM.
